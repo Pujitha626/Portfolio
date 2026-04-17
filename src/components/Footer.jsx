@@ -5,16 +5,16 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <span className="footer-logo">BR</span>
-          <span className="footer-name">Balamurugan R</span>
+          <span className="footer-logo">PP</span>
+          <span className="footer-name">Pallagorla Pujitha</span>
         </div>
         <p className="footer-copy">
           © {new Date().getFullYear()} — Crafted with care
         </p>
         <div className="footer-links">
-          <a href="https://github.com/bala2003rk" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/balamurugan-rk-2003rk" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="mailto:muruganrajendran23@gmail.com">Email</a>
+          <a href="https://github.com/Pujitha626" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/pallagorla-pujitha-651871258" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:pallagorlapujitha@gmail.com">Email</a>
         </div>
       </div>
     </footer>

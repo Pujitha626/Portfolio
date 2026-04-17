@@ -31,8 +31,8 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <span className="logo-initials">BR</span>
-          <span className="logo-name">Balamurugan</span>
+          <span className="logo-initials">PP</span>
+          <span className="logo-name">Pujitha</span>
         </div>
 
         <ul className="nav-links">
@@ -49,10 +49,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="mailto:muruganrajendran23@gmail.com"
-          className="nav-cta"
-        >
+        <a href="mailto:pallagorlapujitha@gmail.com" className="nav-cta">
           Hire Me
         </a>
 
@@ -61,7 +58,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
         <ul>
           {links.map(link => (
@@ -70,7 +66,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="mailto:muruganrajendran23@gmail.com" className="mobile-cta">Hire Me</a>
+        <a href="mailto:pallagorlapujitha@gmail.com" className="mobile-cta">Hire Me</a>
       </div>
     </>
   )

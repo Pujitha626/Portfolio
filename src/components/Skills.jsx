@@ -4,32 +4,32 @@ const skillGroups = [
   {
     category: 'Languages',
     icon: '{ }',
-    skills: ['Java', 'JavaScript', 'Node.js', 'C', 'Python']
+    skills: ['Python', 'Java','HTML', 'CSS', 'JavaScript']
   },
   {
-    category: 'Frameworks',
+    category: 'Libraries',
     icon: '⬡',
-    skills: ['Spring Boot', 'React.js', 'Express.js']
+    skills: ['Pandas', 'NumPy']
   },
   {
     category: 'Databases',
     icon: '⊞',
-    skills: ['MongoDB Atlas', 'MySQL']
+    skills: ['SQL', 'MongoDB', 'PostgreSQL']
   },
   {
-    category: 'Cloud & DevOps',
-    icon: '◈',
-    skills: ['Vercel', 'Render', 'MongoDB Atlas', 'GitHub Actions']
-  },
-  {
-    category: 'Tools',
+    category: 'Tools & Platforms',
     icon: '⚙',
-    skills: ['Git', 'GitHub', 'Postman', 'IntelliJ IDEA', 'VS Code']
+    skills: ['Git', 'GitHub', 'VS Code', 'Jupyter Notebook']
   },
   {
     category: 'Concepts',
     icon: '◎',
-    skills: ['REST APIs', 'JWT Auth', 'RBAC', 'OOP', 'DSA', 'CI/CD']
+    skills: ['OOP','Full Stack Development']
+  },
+  {
+    category: 'Soft Skills',
+    icon: '◈',
+    skills: ['Problem Solving', 'Teamwork', 'Communication', 'Collaboration']
   }
 ]
 

@@ -2,64 +2,50 @@ import './Projects.css'
 
 const projects = [
   {
-    year: '2026',
-    number: '01',
-    title: 'BillTrack',
-    subtitle: 'Employee Bill Reimbursement System',
-    stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Cloudinary', 'Recharts'],
-    live: 'https://bill-automation-gamma.vercel.app',
-    highlights: [
-      '5 role-based access levels with JWT auth',
-      'Multi-stage bill approval workflow',
-      'Nodemailer automated email notifications',
-      'Analytics dashboards with Recharts',
-      'Full CI/CD via GitHub Actions'
-    ],
-    tag: 'MERN Stack'
-  },
-  {
     year: '2025',
-    number: '02',
-    title: 'Fantasy Sports App',
-    subtitle: 'Dream11 Clone',
-    stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
+    number: '01',
+    title: 'Unemployment Analysis Using Python',
+    subtitle: 'AI/ML — Data Analysis & Prediction',
+    stack: ['Python', 'Machine Learning', 'Pandas', 'NumPy', 'Matplotlib'],
     live: null,
     highlights: [
-      'Dynamic team selection with live player stats',
-      'Credit system & captain/vice-captain logic',
-      'Contest creation & leaderboard ranking',
-      'Points calculation engine',
-      'Real-time score updates'
+      'Analyzed socio-economic unemployment data using Python and ML',
+      'Applied Machine Learning algorithms to uncover patterns and trends',
+      'Identified key factors influencing unemployment rates',
+      'Visualized insights through data plots and statistical summaries',
+      'Modern approach replacing traditional data analysis methods'
     ],
-    tag: 'MERN Stack'
+    tag: 'AI / ML'
   },
   {
     year: '2024',
-    number: '03',
-    title: 'Employee Management System',
-    subtitle: 'Spring Boot + React',
-    stack: ['Spring Boot', 'React.js', 'MySQL', 'JWT', 'Swagger'],
+    number: '02',
+    title: 'Carbon Footprint Tracker',
+    subtitle: 'Java Full Stack — Sustainability App',
+    stack: ['Java', 'Full Stack', 'SQL', 'REST APIs'],
     live: null,
     highlights: [
-      'Full-stack with Spring Boot backend',
-      'CRUD operations with role-based access',
-      'JWT authentication',
-      'REST API with Swagger documentation'
+      'Empowers individuals, businesses & organizations to measure carbon footprint',
+      'Built with Java Full Stack for robust and scalable performance',
+      'Tracks and analyzes carbon emissions over time',
+      'Adaptable system for current and future sustainability needs',
+      'Contributes to global challenge of reducing carbon emissions'
     ],
     tag: 'Java'
   },
   {
     year: '2024',
-    number: '04',
-    title: 'Stock Market Prediction',
-    subtitle: 'AI-Powered Analysis',
-    stack: ['Python', 'TensorFlow', 'LSTM', 'Pandas', 'Matplotlib'],
+    number: '03',
+    title: 'Educational Edubot for Programming Courses',
+    subtitle: 'ML-Powered Chatbot — EdTech',
+    stack: ['Python', 'Machine Learning', 'NLP', 'Chatbot'],
     live: null,
     highlights: [
-      'LSTM & regression algorithms',
-      'Historical + real-time data via Meta Market Data API',
-      'Visualized insights with Matplotlib',
-      'Trend prediction engine'
+      'AI-powered educational chatbot for programming course learners',
+      'Provides personalized support and instant feedback to students',
+      'Interactive learning experiences through intelligent conversation',
+      'Enhances learning outcomes in programming education',
+      'Acts as a virtual assistant for student queries'
     ],
     tag: 'AI / ML'
   }

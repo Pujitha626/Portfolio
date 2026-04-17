@@ -1,18 +1,18 @@
 import './Achievements.css'
 
 const stats = [
-  { num: '525+', label: 'LeetCode Problems', sub: 'Global Rank 167,426' },
-  { num: '229+', label: 'CodeChef Problems', sub: 'Rating 1471 · 2★' },
-  { num: '188', label: 'Active Coding Days', sub: 'Max streak: 49 days' },
-  { num: '699', label: 'Submissions / Year', sub: '15+ GitHub repos' }
+  { num: '100+', label: 'LeetCode Problems Solved' },
+  { num: '79', label: 'Active Coding Days'},
+  { num: '183', label: 'CodeChef Problems Solved'},
+  { num: '5+', label: 'Certifications', sub: 'NPTEL, Internships & Workshops' }
 ]
 
 const certs = [
-  { title: 'Java 11', issuer: 'LinkedIn Learning' },
-  { title: 'React.js Essential Training', issuer: 'LinkedIn Learning' },
-  { title: 'MySQL & Frontend Development', issuer: 'Great Learning' },
-  { title: 'Python Basics & Competitive Coding', issuer: 'Inlustro Learning' },
-  { title: 'Java Skill Test', issuer: 'CodeChef — 97 Percentile' }
+  { title: 'Internship — Artificial Intelligence / Machine Learning', issuer: 'AI/ML Domain' },
+  { title: 'Internship — Java Full Stack', issuer: 'Java Full Stack Domain' },
+  { title: 'Programming in Java', issuer: 'NPTEL Online Certification' },
+  { title: 'Problem Solving Through Programming in C', issuer: 'NPTEL Online Certification' },
+  { title: 'Career Development Workshop', issuer: 'Certified Participant' }
 ]
 
 export default function Achievements() {
@@ -39,25 +39,25 @@ export default function Achievements() {
         </div>
 
         <div className="ach-badges reveal">
-          {/* <div className="badge-item">
-            <span className="badge-icon">🏅</span>
-            <span>50 Days Badge 2026</span>
-          </div> */}
           <div className="badge-item">
             <span className="badge-icon">🏆</span>
-            <span>Multiple LeetCode Contests & Badges</span>
+            <span>NPTEL Certified — Programming in Java</span>
           </div>
           <div className="badge-item">
-            <span className="badge-icon">📌</span>
-            <span>CodeChef Starters Contests and Badges</span>
+            <span className="badge-icon">🏆</span>
+            <span>NPTEL Certified — Problem Solving Through Programming in C</span>
           </div>
           <div className="badge-item">
-            <span className="badge-icon">🔗</span>
-            <span>50 Days Coding Challenge — Daily GitHub pushes</span>
+            <span className="badge-icon">🤖</span>
+            <span>AI/ML Internship — Hands-on Machine Learning</span>
+          </div>
+          <div className="badge-item">
+            <span className="badge-icon">☕</span>
+            <span>Java Full Stack Internship — End-to-End Development</span>
           </div>
           <div className="badge-item">
             <span className="badge-icon">🌐</span>
-            <span>Open-source contributor on GitHub</span>
+            <span>Strong Academic Record Across All Levels of Education</span>
           </div>
         </div>
 

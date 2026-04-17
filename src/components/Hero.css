@@ -36,7 +36,7 @@
   letter-spacing: 0.2em;
   pointer-events: none;
   white-space: nowrap;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .hero-content {
